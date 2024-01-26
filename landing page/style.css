@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#052549;
+
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    background-color:#052549;
+}
+.navbar ul{
+    color: aliceblue;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    background-color:#052549;
+    color: rgb(13, 124, 220);
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+     width: 50%;
+}
+
+.section1{
+    max-height: 100vh;
+    color: rgb(235, 244, 232);
+    background-color:#052549;
+}
+
+.section1 h1{
+    font-size: 2rem;
+    color: rgb(30, 30, 72);
+    /* background-color:#052549; */
+    background-color: rgb(235, 244, 232);
+}
+
+ .logo{
+    font-size: 1.3rem;
+ }
+
+ .dumbllimg{
+    width: 289px;
+ }
+
+.topright .gymimg{
+    width: 566px;
+    background-color: rgb(235, 244, 232);
+}
+
+.section2{
+    padding-top: 73px;
+   background-image: url("fitness_PNG91.png");
+   
+   background-color: #052549;
+}
+.p{
+    color: brown;
+    }
+.section2 h1{
+    font-size: 2.3rem;
+    color: rgb(143, 209, 247);
+ /* background-color: rgb(235, 244, 232);  */
+}
+
+.section2{
+    padding: 0 8vw;
+    text-align: center;
+    /* color: rgb(120, 224, 250); */
+
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(61, 133, 227);
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(235, 244, 232);
+    color: rgb(2, 17, 21);
+    
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+    background-color: rgb(235, 244, 232);
+
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+     list-style-type: none;
+     background-color: rgb(235, 244, 232);
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color:#052549;
+}
+.section3 h1{
+    color: aliceblue;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid rgb(251, 246, 246);
+    padding: 15px 0;
+    background-color:  #052549;
+}
+.section3 table tr{
+    color: aliceblue;
+}
+
+.section3 table td{
+    border-bottom: 2px solid rgb(235, 244, 232);
+    
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+    border-bottom: 2px solid rgb(235, 244, 232);
+    text-emphasis-color: white;
+
+}
+
+.section3{
+    padding-top: 73px;
+    background-color:#052549;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    background-color:#052549;
+}
